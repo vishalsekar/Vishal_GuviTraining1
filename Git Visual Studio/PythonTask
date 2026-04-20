@@ -1,0 +1,64 @@
+#print number 10
+print (10)
+
+#print numbers 5, 10,15 with spaces
+print(5,10,15)
+
+#Store your name in a variable and print it. 
+name = "Vishal"
+print (name)
+
+#Store your first name and last name in two variables and print both.
+FName ="Vishal"
+LName ="Sekar"
+print(FName,LName)
+
+#Store your age in a variable and print: "I am 30 years old".
+Age = 29
+print("I am",Age,"years old")
+
+#Store your name and city in variables and print the message: "My name is Deepak and I live in Nagpur" using the format() method.
+city ="Chennai"
+print ("My name is {} and I live in {}".format(name,city))
+
+#Print "Python and Rocks!" on the same line without using two print() statements. 
+print("python","rocks")
+
+#print Ask the user to enter their name and print: "Hello, <name>!". 
+a=input()
+print ("Hello" , a)
+
+#Create a variable named city, assign your favourite city name, and print it. 
+city="Chennai"
+print("My favourite City is" , city)
+
+#Create 3 variables in one line and assign them values 5, 10, and "Python".
+x,y,z=5,10,"python"
+print(x,y,z)
+
+#Assign the same value "Red" to three variables: color1, color2, color3.
+colors1="red"
+colors2=colors1
+colors3=colors2
+print (colors1, colors2,colors3)
+
+#Check the type of a variable that has value 3.14 and print it.
+d=3.14
+print(d)
+print(type(d))
+
+#Create variables name and age and print: "My name is Deepak and I am 30 years old". 
+print("My name is",name , " and I am",Age , " years old")
+
+#What will be the output of the given code? 
+a = "5"
+b = 3
+print(a * b)
+
+#Assign values 10 to a and 20 to b, swap the values, and print them. 
+a=10
+b=20
+temp = a
+a=b
+b=temp
+print(a,b)

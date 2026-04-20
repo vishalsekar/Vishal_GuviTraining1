@@ -1,0 +1,21 @@
+#Upper() - Retruns all the characters in the string to Upper
+name = "Vishal"
+print(name)
+print(name.upper())
+
+name2=name.lower()
+print(name2)   
+
+name3 ="JaSHVith"
+print (name3.swapcase()) #swaps alternate characters to lower and upper case letters to lower
+print (name3.capitalize()) #capatalizes the first letter
+
+name4= "vishal sekar"
+print (name4.title()) #returns each words of first letter to capatilize 
+
+s= " go to office regularly   "
+print(s.strip()) # removes unwanted spaces of both left and right side
+
+s1=("   vishal sekar ")
+print(s1.lstrip())
+print(s1.rstrip())

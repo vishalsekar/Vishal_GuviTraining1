@@ -1,0 +1,9 @@
+#Python list [10, 501, 22, 37, 100, 999, 87, 351] convert it to even or odd numbers
+
+num = [10, 501, 22, 37, 100, 999, 87, 351]
+
+if num%2==0:
+    Even=num
+    print("Even number "+ num)
+print ("Odd number"+ num)
+            
