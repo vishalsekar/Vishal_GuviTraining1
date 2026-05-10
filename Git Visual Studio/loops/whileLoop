@@ -1,0 +1,102 @@
+# #helps to print the automation testing for 5 times
+# print("helps to print the automation testing for 5 times")
+# x=1
+# while x<=5:
+#     print("Automation Testing")
+#     x=x+1
+
+# #helps to print the values until the y value is reduced to 6
+# print("helps to print the y value until it is reduced to the certain criteria or it satisfies ")
+# y=8
+# while y>=6:
+#     print(y)
+#     y=y-1
+
+# #helps to pring the values until it reaches the z<5 and the last print statement helps to print out side of the loop
+# print("helps to pring the values until it reaches the z<5 and the last print statement helps to print out side of the loop")
+# z=0
+# while z<5:
+#     z=z+3
+#     print(z)
+# print("Out of while loop")
+
+# #print number from 1 to 100 in a next line
+# print("print number from 1 to 100 in a next line")
+# a=0
+# while a<=100:
+#     a=a+1
+#     print(a)
+
+# #print number from 0 to 100 in a next line
+# # print("print number from 1 to 100 in a same line") 
+# # a=0
+# # while a<=100:
+# #     print(a,end=" ") #ends>> Instead of moving to next line it will add (" ") statement to each line
+# #     a=a+1
+    
+
+
+# #add 1 to 100 in a list 
+# print("add 1 to 100 in a list ")
+# b=1
+# ls=[]
+# while b<=100:
+#     ls.append(b)
+#     b=b+1
+# print(ls)
+
+# #take any 3 values and save into a list
+# print("take any 3 values and save into a list")
+# c=1
+# ls=[]
+# while c<=3:
+#     n=int(input("Enter the number :"))
+#     ls.append(n)
+#     c=c+1
+# print(ls)
+
+# #ask user to print any 5 values and identify the largest number
+# print("ask user to print any 5 values and identify the largest number")
+# d=1
+# ls1=[]
+# while d<=5:
+#     m=int(input("Enter the number to convert into list :"))
+#     ls1.append(m)
+#     d=d+1
+# print(ls1)
+# ls1.sort
+# print(ls1[-1])
+
+# #print any 5 values and sum the values
+# print("print any 5 values and sum the values")
+# e=1
+# s=0
+# while e<=5:
+#     n=int(input("Enter the number:"))
+#     s=s+n
+#     e=e+1
+# print(s)
+
+#infinite Loop
+# print("infinite loop")
+# f=1
+# while f<=10:
+#     print("infinite loop")
+
+#infinite loop with conditions
+# g=1
+# while True:
+#     print(g,"Automation testing")
+#     if g>=5:
+#         break
+#     g=g+1
+
+#ask user to enter any number of values and sum of it 
+print("ask user to enter any number of values and sum of it ")
+sum=0
+while True:
+    h=input("Enter the number: ")
+    if h=='#':
+        break
+    sum=sum+int(h)
+print(sum)
