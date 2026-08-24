@@ -1,0 +1,28 @@
+
+'''print("hello","python")
+print("Hello","python",sep="-")
+'''
+
+#Variable Declaration in seperate line
+a=500
+b=600
+print(a,b)  
+
+#Variable declaration in same line
+x,y=5,10
+print(x, y)
+
+#print with string
+print("X value =",x)
+print("Y value =",y)
+
+#Declaring the string of both the values in same line
+id=10
+name="Vishal"
+print("My id is",id , "", "name is" ,name)
+
+#By using .format function
+print("My id is: {} name is {}" .format(id,name))
+
+#print F strings
+print(f"My id is: {id} name is {name}")

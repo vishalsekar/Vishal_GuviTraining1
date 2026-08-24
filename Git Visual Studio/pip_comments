@@ -1,0 +1,10 @@
+python -m pip install --upgrade pip #-->>upgrades the existing pip library by uninstalling
+pip --version  #-->provides the current version of pip
+python -m pip --version #-->Provides the current version of pip if the pip is later version
+python -m pip install selenium #-->helps install the selenium library 
+python -m pip install --upgrade selenium --> Helps upgrade selenium python -m pip show selenium
+
+
+
+require coode uninstall selenium 
+Require code for installing the latest version of selenium 
